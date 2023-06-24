@@ -1,0 +1,41 @@
+ :root {
+     --teal: rgb(0, 238, 255);
+     --teal_hover: #279eBc;
+ }
+
+ * {
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .h-font {
+     font-family: 'Merienda', cursive;
+ }
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+ /* input[type=number] {
+    -moz-appearance: textfield;
+} */
+ .custom-bg {
+     background-color: var(--teal);
+     border: 1px solid var(--teal);
+ }
+ .custom-alert {
+     position: fixed;
+     top: 80px;
+     right: 25px;
+ }
+
+ .custom-bg:hover {
+     background-color: var(--teal_hover);
+     border-color: var(--teal_hover);
+ }
+
+ hr {
+     width: 150px;
+     margin: 0 auto;
+ }
